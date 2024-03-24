@@ -51,4 +51,4 @@ def alarm_clock(day_of_the_week,is_on_vacation):
         else :
             return '10:00'
             
-print(day_of_the_week,is_on_vacation)
+print (alarm_clock(day_of_the_week,is_on_vacation))
