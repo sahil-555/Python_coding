@@ -52,3 +52,36 @@ def alarm_clock(day_of_the_week,is_on_vacation):
             return '10:00'
             
 print (alarm_clock(day_of_the_week,is_on_vacation))
+
+
+3. fatorial
+number=int(input())
+#the function definition starts here
+def factorial(n):
+    #write the funtion here that finds and RETURNS factorial of next
+    if n<1:
+        return -1
+    elif n==0:
+        return 1
+    else:
+        f=1
+        for i in range(1,n+1):
+            f=f*i
+        return f
+
+#function definition ends here
+
+k=factorial(number)
+print(k)
+
+4.reverse digits
+n=int(input())
+
+#write code to reverse the number here
+
+r=0
+while(n>0):
+    r=n%10+r*10
+    n=n//10
+    
+print(r)
