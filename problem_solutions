@@ -1,0 +1,15 @@
+Beautiful Pretty Sexy
+Description
+A number k is beautiful if it is of the form 3n+1, is pretty if it is of the form 3n+2 and is sexy if it is of form 3n.
+Given a number k, print if it is beautiful, pretty or sexy.
+
+
+Solution:
+k=int(input())
+#check if the number is beautiful, pretty or sexy
+if k%3==1:
+    print('beautiful')
+elif k%3==2:
+    print('pretty')
+elif k%3==0:
+    print('sexy')
